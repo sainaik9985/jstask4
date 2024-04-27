@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    #parent {
+        
+            width:1500px;
+            height: 450px;
+            display: flex;
+        }
+        #parent div {
+
+           background-color: rgb(235, 233, 206);
+            width:280px;
+            height: 350px;
+            margin: 2px; 
+            border-radius: 20px;
+            border: 2px solid rgb(20, 181, 187);
+            margin: 40px;
+            
+        }
+      
+    </style>
+</head>
+<body>
+    
+        <div id="parent">
+<div id="raj1">
+    
+</div>
+<div id="raj2">
+  
+</div>
+ <div id="raj3">
+</div> 
+ <div id="raj4">
+   
+ </div>  
+
+</div>
+<br><br>
+
+
+
+                <script> 
+
+
+var t = [
+  {
+    "id": 1,
+    "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+    "price": "$ 230.95",
+    "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+    "category": "men's clothing",
+    "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+  },
+  {
+    "id": 2,
+    "title": "Mens Casual Premium Slim Fit T-Shirts ",
+    "price": "$ 322.3",
+    "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. .",
+    "category": "men's clothing",
+    "image": "https://fakestoreapi.com/img/71-3HjGNDUL.AC_SY879._SX._UX._SY._UY.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Mens Cotton Jacket",
+    "price": "$ 535.99",
+    "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling.",
+    "category": "men's clothing",
+    "image": "https://fakestoreapi.com/img/71li-ujtlUL.AC_UX679.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Mens Casual Slim Fit",
+    "price": "$ 153.99",
+    "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size.",
+    "category": "men's clothing",
+    "image": "https://fakestoreapi.com/img/71YXzeOuslL.AC_UY879.jpg"
+  },
+  {
+    "id": 5,
+    "title": "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",
+    "price": "69s5",
+    "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+    "category": "jewelery",
+    "image": "https://fakestoreapi.com/img/71pWzhdJNwL.AC_UL640_QL65_ML3.jpg"
+  }
+];
+
+
+
+
+
+
+
+
+         var center=document.createElement("center");
+
+
+
+
+
+
+
+                var c11=document.getElementById("raj1");
+                var img1=document.createElement("img");
+                img1.setAttribute("src","https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",);
+                img1.width="100"
+                img1.style.marginLeft="90px"
+                c11.appendChild(img1);
+
+                var c12=document.getElementById("raj1");
+                var des1=document.createElement("h4");
+                 des1.innerText=t[0].description;
+                 center.appendChild(des1)
+                 c12.appendChild(center);
+
+
+                 var c13=document.getElementById("raj1");
+                 var price1=document.createElement("h3");
+                 price1.innerText=t[0].price;
+                 center.appendChild(price1)
+
+
+                 var c14=document.getElementById("raj1");
+                 var but11=document.createElement("button");
+                 but11.innerText="Add to Cart"
+                 but11.style.width="100px"
+                 but11.style.height="35px"
+                 but11.style.borderRadius="10px"
+                 but11.style.backgroundColor="red"
+                 center.appendChild(but11);
+                 c14.appendChild(center);
+
+
+                 var c14=document.getElementById("raj1");
+                 var but11=document.createElement("button");
+                 but11.innerText="Buy Now"
+                 but11.style.width="100px"
+                 but11.style.height="35px"
+                 but11.style.borderRadius="10px"
+                 but11.style.backgroundColor="yellow"
+                 center.appendChild(but11);
+                 c14.appendChild(center);
+
+
+
+
+
+
+
+
+                 var center1=document.createElement("center");
+
+                 var c21=document.getElementById("raj2");
+                var img1=document.createElement("img");
+                img1.setAttribute("src","https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg");
+                img1.width="100"
+                img1.style.marginLeft="90px"
+                c21.appendChild(img1);
+
+
+                var c22=document.getElementById("raj2");
+                var des2=document.createElement("h4");
+                 des2.innerText=t[1].description;
+                 center1.appendChild(des2)
+                 c22.appendChild(center1);
+
+
+
+
+
+
+
+                 var c23=document.getElementById("raj2");
+                 var price2=document.createElement("h3");
+                 price2.innerText=t[1].price;
+                 center1.appendChild(price2)
+
+
+                 var c24=document.getElementById("raj2");
+                 var but21=document.createElement("button");
+                 but21.innerText="Add to Cart"
+                 but21.style.width="100px"
+                 but21.style.height="35px"
+                 but21.style.borderRadius="10px"
+                 but21.style.backgroundColor="red"
+                 center1.appendChild(but21);
+
+
+
+
+
+
+                 var c24=document.getElementById("raj2");
+                 var but21=document.createElement("button");
+                 but21.innerText="Buy NOow"
+                 but21.style.width="100px"
+                 but21.style.height="35px"
+                 but21.style.borderRadius="10px"
+                 but21.style.backgroundColor="yellow"
+                 center1.appendChild(but21);
+                
+
+
+
+
+
+
+
+
+
+                 var center2=document.createElement("center");
+
+                 var c21=document.getElementById("raj3");
+                var img1=document.createElement("img");
+                img1.setAttribute("src","https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg");
+                img1.width="100"
+                img1.style.marginLeft="90px"
+                c21.appendChild(img1);
+
+
+                var c32=document.getElementById("raj3");
+                var des3=document.createElement("h4");
+                 des3.innerText=t[2].description;
+                 center2.appendChild(des3)
+                 c32.appendChild(center2);
+
+
+
+
+
+
+
+                 var c33=document.getElementById("raj3");
+                 var price3=document.createElement("h3");
+                 price3.innerText=t[2].price;
+                 center2.appendChild(price3)
+
+
+                 var c34=document.getElementById("raj3");
+                 var but31=document.createElement("button");
+                 but31.innerText="Add to Cart"
+                 but31.style.width="100px"
+                 but31.style.height="35px"
+                 but31.style.borderRadius="10px"
+                 but31.style.backgroundColor="red"
+                 center2.appendChild(but31);
+
+
+
+
+
+
+                 var c34=document.getElementById("raj3");
+                 var but31=document.createElement("button");
+                 but31.innerText="Buy Now"
+                 but31.style.width="100px"
+                 but31.style.height="35px"
+                 but31.style.borderRadius="10px"
+                 but31.style.backgroundColor="yellow"
+                 center2.appendChild(but31);
+
+
+
+
+
+
+
+                 var center3=document.createElement("center");
+
+                 var c21=document.getElementById("raj4");
+                var img1=document.createElement("img");
+                img1.setAttribute("src","https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg");
+                img1.width="100"
+                img1.style.marginLeft="90px"
+                c21.appendChild(img1);
+
+
+                var c42=document.getElementById("raj4");
+                var des4=document.createElement("h4");
+                 des4.innerText=t[3].description;
+                 center3.appendChild(des4)
+                 c42.appendChild(center3);
+
+
+
+
+
+
+
+                 var c43=document.getElementById("raj4");
+                 var price4=document.createElement("h3");
+                 price4.innerText=t[3].price;
+                 center3.appendChild(price4)
+
+
+                 var c44=document.getElementById("raj4");
+                 var but41=document.createElement("button");
+                 but41.innerText="Add to Cart"
+                 but41.style.width="100px"
+                 but41.style.height="35px"
+                 but41.style.borderRadius="10px"
+                 but41.style.backgroundColor="red"
+                 center3.appendChild(but41);
+
+
+
+                 var c44=document.getElementById("raj4");
+                 var but41=document.createElement("button");
+                 but41.innerText="Buy Now"
+                 but41.style.width="100px"
+                 but41.style.height="35px"
+                 but41.style.borderRadius="10px"
+                 but41.style.backgroundColor="yellow"
+                 center3.appendChild(but41);
+
+
+                 
+                
+
+
+                
+
+
+
+               
+
+
+                </script>
+        
+        
+
+
+</body>
+</html>
